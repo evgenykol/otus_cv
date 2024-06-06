@@ -10,14 +10,14 @@ bounding boxes игроков.
 
 Структура файла bboxes.json следующая:
 
-```
+```json
 frame_n: {
-player_1: {
-'box': [x,y,w,h],
-'team': int
+    player_1: {
+        'box': [x,y,w,h],
+        'team': int
 },
 .....
-plyaer_10: { .... }
+    plyaer_10: { .... }
 }
 ....
 frame_n+k: { .... }
